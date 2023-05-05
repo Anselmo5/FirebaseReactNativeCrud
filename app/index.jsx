@@ -29,6 +29,9 @@ const app = () => {
                 <TextInput style={styles.input} placeholder="Nome" onChangeText={Text => setNome} value={nome}/>
                 <TextInput style={styles.input} placeholder="Sobrenome"/>
                 <TextInput style={styles.input} placeholder="Cpf"/>
+                <Pressable style={styles.btn3}>
+                    <Text> Criar</Text>
+                </Pressable>
         </View>
     )
 }
